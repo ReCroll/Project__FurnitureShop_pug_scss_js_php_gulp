@@ -1648,21 +1648,17 @@ button.swiper-pagination-bullet {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #5e5372;
+  border-radius: 3px;
+  background-color: #524f4f;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  background-color: #32b5a4;
+  border-radius: 3px;
+  background-color: #9c9797;
 }
 
 ::-webkit-scrollbar {
-  width: 2px;
-}
-
-* {
-  scrollbar-color: #32b5a4 #5e5372;
-  scrollbar-width: very-thin;
+  width: 3px;
 }
 
 /* 100/16 */
@@ -2502,7 +2498,7 @@ p {
   bottom: -3px;
   left: 0;
   width: 0%;
-  height: 1px;
+  height: 1.8px;
   opacity: 1;
   background-color: #ffffff;
   transition: width 0.3s ease 0s;
@@ -3853,14 +3849,13 @@ input[id=radio-4]:checked ~ .glider {
   box-sizing: content-box;
   top: -1.95rem;
   left: 50%;
-  transform: translate(-50%, 0%);
   width: 3.4375rem;
   /* 55/16 */
   height: 3.4375rem;
   /* 55/16 */
   border-radius: 50%;
   opacity: 0;
-  transform: translate(0%, 50px);
+  transform: translate(-50%, 50px);
 }
 
 .swiper2__avatar img {
