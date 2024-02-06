@@ -4611,7 +4611,6 @@ input[id=radio-4]:checked ~ .glider {
   }
 
   .swiper-slide {
-    min-height: 28rem;
     /* 482/16 */
     margin: 0;
   }
