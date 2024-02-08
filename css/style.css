@@ -3069,19 +3069,24 @@ input[id=radio-4]:checked ~ .glider {
   transition: all 0.3s ease 0s;
 }
 
-.swiper-slide,
-.swiper2-slide {
+.swiper-slide {
   position: relative;
   display: flex !important;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 27.625rem;
+  height: 90%;
   /* 442/16 */
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   min-width: 16.75rem;
   /* 268/16 */
+  /* 482/16 */
+}
+
+.swiper2__item {
+  height: 27.625rem;
   min-height: 30.125rem;
   /* 482/16 */
 }
@@ -4702,8 +4707,8 @@ input[id=radio-4]:checked ~ .glider {
 }
 
 @media (max-width: 43.75em) {
-  .tabs {
-    transform: scale(0.6);
+  .selling__container._element_show .selling__tabs {
+    transform: scale(0.8) translate(0%, 0px);
   }
 }
 
