@@ -3002,13 +3002,13 @@ input[id=radio-4]:checked ~ .glider {
   transition: 0.25s ease-out;
 }
 
-.selling__swiper {
-  margin-bottom: 5rem;
+.swiper__link-all-wrap {
+  padding-top: 5rem;
 }
 
 .selling__swiper .swiper .swiper__slide-img-wrapper {
   position: relative;
-  flex: 1 0 66%;
+  flex: 0 1 auto;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -3076,7 +3076,7 @@ input[id=radio-4]:checked ~ .glider {
   justify-content: space-between;
   align-items: center;
   height: 27.625rem;
-  height: 90%;
+  height: 100%;
   /* 442/16 */
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -3170,8 +3170,8 @@ input[id=radio-4]:checked ~ .glider {
 }
 
 .item__swiper-content {
-  flex: 0 1 auto;
-  padding: 1rem 0.5rem 1rem 0.5rem;
+  flex: 0 0 auto;
+  padding: 1rem 0.5rem 0 0.5rem;
   width: 100%;
 }
 
@@ -4611,8 +4611,8 @@ input[id=radio-4]:checked ~ .glider {
     /* 18/16 */
   }
 
-  .selling__swiper {
-    margin-bottom: 3rem;
+  .swiper__link-all-wrap {
+    padding-top: 3rem;
   }
 
   .swiper-slide {
