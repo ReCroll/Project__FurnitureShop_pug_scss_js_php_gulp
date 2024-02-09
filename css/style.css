@@ -2890,7 +2890,7 @@ p {
 
 .selling__container._element_show ._up_block {
   opacity: 1;
-  transform: translate(0%, 0%);
+  transform: translate(-50%, -50%) !important;
   transition: transform 0.8s ease 0.4s, opacity 0.8s cubic-bezier(0.71, 0.04, 0.74, 0.81) 0.4s;
 }
 
@@ -3019,7 +3019,7 @@ input[id=radio-4]:checked ~ .glider {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   width: auto;
   height: 100%;
 }
@@ -4708,7 +4708,7 @@ input[id=radio-4]:checked ~ .glider {
 
 @media (max-width: 43.75em) {
   .selling__container._element_show .selling__tabs {
-    transform: scale(0.8) translate(0%, 0px);
+    zoom: 0.8;
   }
 }
 
